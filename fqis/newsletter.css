@@ -1,0 +1,39 @@
+body {
+  --main-red: #992538;
+  background-color: var(--main-red);
+  color: white;
+}
+
+.heroProfile {
+  background: url("../hero_profile.webp");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  max-width: 260px;
+  min-height: 20svh;
+  aspect-ratio: 1 / 1;
+  margin: -24px 0;
+
+  @media (width >= 768px) {
+    max-width: 360px;
+  }
+}
+
+.emailInputArea {
+  min-height: 75svh;
+  width: 90%;
+  max-width: 1200px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.newsletterDescription {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
